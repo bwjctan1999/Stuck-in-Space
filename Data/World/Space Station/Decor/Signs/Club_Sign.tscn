@@ -1,0 +1,30 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://Data/World/Space Station/Decor/Signs/Textures/Sign_Club.png" type="Texture" id=4]
+[ext_resource path="res://Data/World/Lights/Fake_Light.tscn" type="PackedScene" id=5]
+
+[sub_resource type="CanvasItemMaterial" id=1]
+light_mode = 1
+
+[sub_resource type="CanvasItemMaterial" id=2]
+blend_mode = 1
+light_mode = 1
+
+[node name="Club_Sign" type="Sprite"]
+material = SubResource( 1 )
+position = Vector2( 845, -88 )
+texture = ExtResource( 4 )
+
+[node name="Fake_Light" parent="." instance=ExtResource( 5 )]
+modulate = Color( 1, 0, 0.443137, 0.560784 )
+self_modulate = Color( 1, 0, 0.443137, 0.435294 )
+material = SubResource( 2 )
+position = Vector2( 0, -16 )
+scale = Vector2( 0.155566, 0.168359 )
+
+[node name="Fake_Light2" parent="." instance=ExtResource( 5 )]
+modulate = Color( 1, 0, 0.443137, 0.560784 )
+self_modulate = Color( 1, 0, 0.443137, 0.435294 )
+material = SubResource( 2 )
+position = Vector2( 0, 14 )
+scale = Vector2( 0.201001, 0.168359 )

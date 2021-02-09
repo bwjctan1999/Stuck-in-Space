@@ -1,0 +1,34 @@
+[remap]
+
+importer="texture"
+type="StreamTexture"
+path="res://.import/Cubile_Door_Washroom.png-9795bf92d235f320bad6cf1426f53d19.stex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Data/World/Space Station/Rooms/Comfort Room/Textures/Cubile_Door_Washroom.png"
+dest_files=[ "res://.import/Cubile_Door_Washroom.png-9795bf92d235f320bad6cf1426f53d19.stex" ]
+
+[params]
+
+compress/mode=0
+compress/lossy_quality=0.7
+compress/hdr_mode=0
+compress/bptc_ldr=0
+compress/normal_map=0
+flags/repeat=0
+flags/filter=false
+flags/mipmaps=false
+flags/anisotropic=false
+flags/srgb=2
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/HDR_as_SRGB=false
+process/invert_color=false
+stream=false
+size_limit=0
+detect_3d=false
+svg/scale=1.0

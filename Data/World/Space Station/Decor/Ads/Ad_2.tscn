@@ -1,0 +1,46 @@
+[gd_scene load_steps=9 format=2]
+
+[ext_resource path="res://Data/World/Space Station/Decor/Ads/Textures/advertisement 2.png" type="Texture" id=2]
+[ext_resource path="res://Data/World/Lights/Fake_Light.tscn" type="PackedScene" id=3]
+
+
+[sub_resource type="CanvasItemMaterial" id=1]
+light_mode = 1
+
+[sub_resource type="AtlasTexture" id=2]
+atlas = ExtResource( 2 )
+region = Rect2( 0, 0, 61, 71 )
+
+[sub_resource type="AtlasTexture" id=3]
+atlas = ExtResource( 2 )
+region = Rect2( 61, 0, 61, 71 )
+
+[sub_resource type="AtlasTexture" id=4]
+atlas = ExtResource( 2 )
+region = Rect2( 122, 0, 61, 71 )
+
+[sub_resource type="SpriteFrames" id=5]
+animations = [ {
+"frames": [ SubResource( 2 ), SubResource( 3 ), SubResource( 4 ) ],
+"loop": true,
+"name": "default",
+"speed": 5.0
+} ]
+
+[sub_resource type="CanvasItemMaterial" id=6]
+blend_mode = 1
+light_mode = 1
+
+[node name="Ad_2" type="AnimatedSprite"]
+material = SubResource( 1 )
+position = Vector2( 1126, 129 )
+frames = SubResource( 5 )
+speed_scale = 0.4
+playing = true
+
+[node name="Fake_Light2" parent="." instance=ExtResource( 3 )]
+modulate = Color( 1, 1, 1, 0.415686 )
+self_modulate = Color( 1, 1, 1, 0.435294 )
+material = SubResource( 6 )
+position = Vector2( 0, 1.99998 )
+scale = Vector2( 0.4, 0.4 )

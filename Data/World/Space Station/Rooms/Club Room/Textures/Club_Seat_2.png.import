@@ -1,0 +1,34 @@
+[remap]
+
+importer="texture"
+type="StreamTexture"
+path="res://.import/Club_Seat_2.png-cd4b2fd3e650f9cad1064a647287e9dd.stex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Data/World/Space Station/Rooms/Club Room/Textures/Club_Seat_2.png"
+dest_files=[ "res://.import/Club_Seat_2.png-cd4b2fd3e650f9cad1064a647287e9dd.stex" ]
+
+[params]
+
+compress/mode=0
+compress/lossy_quality=0.7
+compress/hdr_mode=0
+compress/bptc_ldr=0
+compress/normal_map=0
+flags/repeat=0
+flags/filter=false
+flags/mipmaps=false
+flags/anisotropic=false
+flags/srgb=2
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/HDR_as_SRGB=false
+process/invert_color=false
+stream=false
+size_limit=0
+detect_3d=false
+svg/scale=1.0
